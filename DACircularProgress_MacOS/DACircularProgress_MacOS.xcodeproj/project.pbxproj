@@ -1,0 +1,329 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F871CE9D1F153E9F00C9B16F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F871CE9C1F153E9F00C9B16F /* AppDelegate.m */; };
+		F871CEA01F153E9F00C9B16F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F871CE9F1F153E9F00C9B16F /* main.m */; };
+		F871CEA51F153E9F00C9B16F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F871CEA41F153E9F00C9B16F /* Assets.xcassets */; };
+		F871CEA81F153E9F00C9B16F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F871CEA61F153E9F00C9B16F /* Main.storyboard */; };
+		F871CEB41F153F5B00C9B16F /* DACircularProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = F871CEB11F153F5B00C9B16F /* DACircularProgressView.m */; };
+		F88E95791F22442B00261F70 /* CAlayer_subclass.m in Sources */ = {isa = PBXBuildFile; fileRef = F88E95781F22442B00261F70 /* CAlayer_subclass.m */; };
+		F88E957C1F23235300261F70 /* public_info.m in Sources */ = {isa = PBXBuildFile; fileRef = F88E957B1F23235300261F70 /* public_info.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F871CE981F153E9F00C9B16F /* DACircularProgress_MacOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DACircularProgress_MacOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F871CE9B1F153E9F00C9B16F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F871CE9C1F153E9F00C9B16F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F871CE9F1F153E9F00C9B16F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F871CEA41F153E9F00C9B16F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F871CEA71F153E9F00C9B16F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F871CEA91F153E9F00C9B16F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F871CEB01F153F5B00C9B16F /* DACircularProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DACircularProgressView.h; sourceTree = "<group>"; };
+		F871CEB11F153F5B00C9B16F /* DACircularProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DACircularProgressView.m; sourceTree = "<group>"; };
+		F88E95771F22442B00261F70 /* CAlayer_subclass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAlayer_subclass.h; sourceTree = "<group>"; };
+		F88E95781F22442B00261F70 /* CAlayer_subclass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CAlayer_subclass.m; sourceTree = "<group>"; };
+		F88E957A1F23235300261F70 /* public_info.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = public_info.h; sourceTree = "<group>"; };
+		F88E957B1F23235300261F70 /* public_info.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = public_info.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F871CE951F153E9F00C9B16F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F871CE8F1F153E9F00C9B16F = {
+			isa = PBXGroup;
+			children = (
+				F871CE9A1F153E9F00C9B16F /* DACircularProgress_MacOS */,
+				F871CE991F153E9F00C9B16F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F871CE991F153E9F00C9B16F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F871CE981F153E9F00C9B16F /* DACircularProgress_MacOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F871CE9A1F153E9F00C9B16F /* DACircularProgress_MacOS */ = {
+			isa = PBXGroup;
+			children = (
+				F871CEAF1F153F5B00C9B16F /* DACircularProgress */,
+				F871CE9B1F153E9F00C9B16F /* AppDelegate.h */,
+				F871CE9C1F153E9F00C9B16F /* AppDelegate.m */,
+				F871CEA41F153E9F00C9B16F /* Assets.xcassets */,
+				F871CEA61F153E9F00C9B16F /* Main.storyboard */,
+				F871CEA91F153E9F00C9B16F /* Info.plist */,
+				F871CE9E1F153E9F00C9B16F /* Supporting Files */,
+			);
+			path = DACircularProgress_MacOS;
+			sourceTree = "<group>";
+		};
+		F871CE9E1F153E9F00C9B16F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F871CE9F1F153E9F00C9B16F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F871CEAF1F153F5B00C9B16F /* DACircularProgress */ = {
+			isa = PBXGroup;
+			children = (
+				F871CEB01F153F5B00C9B16F /* DACircularProgressView.h */,
+				F871CEB11F153F5B00C9B16F /* DACircularProgressView.m */,
+				F88E95771F22442B00261F70 /* CAlayer_subclass.h */,
+				F88E95781F22442B00261F70 /* CAlayer_subclass.m */,
+				F88E957A1F23235300261F70 /* public_info.h */,
+				F88E957B1F23235300261F70 /* public_info.m */,
+			);
+			path = DACircularProgress;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F871CE971F153E9F00C9B16F /* DACircularProgress_MacOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F871CEAC1F153E9F00C9B16F /* Build configuration list for PBXNativeTarget "DACircularProgress_MacOS" */;
+			buildPhases = (
+				F871CE941F153E9F00C9B16F /* Sources */,
+				F871CE951F153E9F00C9B16F /* Frameworks */,
+				F871CE961F153E9F00C9B16F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DACircularProgress_MacOS;
+			productName = DACircularProgress_MacOS;
+			productReference = F871CE981F153E9F00C9B16F /* DACircularProgress_MacOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F871CE901F153E9F00C9B16F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = boo;
+				TargetAttributes = {
+					F871CE971F153E9F00C9B16F = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 3SF3GM4R4N;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F871CE931F153E9F00C9B16F /* Build configuration list for PBXProject "DACircularProgress_MacOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F871CE8F1F153E9F00C9B16F;
+			productRefGroup = F871CE991F153E9F00C9B16F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F871CE971F153E9F00C9B16F /* DACircularProgress_MacOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F871CE961F153E9F00C9B16F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F871CEA51F153E9F00C9B16F /* Assets.xcassets in Resources */,
+				F871CEA81F153E9F00C9B16F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F871CE941F153E9F00C9B16F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F871CEA01F153E9F00C9B16F /* main.m in Sources */,
+				F88E957C1F23235300261F70 /* public_info.m in Sources */,
+				F88E95791F22442B00261F70 /* CAlayer_subclass.m in Sources */,
+				F871CEB41F153F5B00C9B16F /* DACircularProgressView.m in Sources */,
+				F871CE9D1F153E9F00C9B16F /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F871CEA61F153E9F00C9B16F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F871CEA71F153E9F00C9B16F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F871CEAA1F153E9F00C9B16F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		F871CEAB1F153E9F00C9B16F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		F871CEAD1F153E9F00C9B16F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 3SF3GM4R4N;
+				INFOPLIST_FILE = DACircularProgress_MacOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "bo.DACircularProgress-MacOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F871CEAE1F153E9F00C9B16F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 3SF3GM4R4N;
+				INFOPLIST_FILE = DACircularProgress_MacOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "bo.DACircularProgress-MacOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F871CE931F153E9F00C9B16F /* Build configuration list for PBXProject "DACircularProgress_MacOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F871CEAA1F153E9F00C9B16F /* Debug */,
+				F871CEAB1F153E9F00C9B16F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F871CEAC1F153E9F00C9B16F /* Build configuration list for PBXNativeTarget "DACircularProgress_MacOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F871CEAD1F153E9F00C9B16F /* Debug */,
+				F871CEAE1F153E9F00C9B16F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F871CE901F153E9F00C9B16F /* Project object */;
+}
