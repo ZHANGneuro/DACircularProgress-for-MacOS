@@ -10,6 +10,3 @@ I re-programmed DACircularProgress for cocoa for my personal use, welcome to use
 </p>
 
 
-
-bo <br />
-2017-07-22
